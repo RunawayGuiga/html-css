@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf);
+}
+
+/* Reset Navegador*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+body {
+  background-color: rgb(132, 224, 172);
+}
+
+header {
+  background: linear-gradient(
+    0deg,
+    rgba(27, 110, 60, 1) 0%,
+    rgba(52, 186, 112, 1) 50%
+  );
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.616);
+  position: relative;
+  color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+header div {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0px 15px;
+  font-weight: bold;
+}
+
+p {
+  margin: 20px;
+  text-align: justify;
+  text-indent: 25px;
+}
+
+strong {
+  color: rgb(13, 99, 13);
+}
+
+a {
+  color: rgb(26, 92, 55);
+  font-weight: bold;
+}
+
+a:hover {
+  color: rgb(132, 224, 172);
+  text-decoration: underline;
+}
+
+.sessoes {
+  display: block;
+  width: 60%;
+  margin: auto;
+  z-index: 1;
+  background-color: white;
+  padding-bottom: 0.1px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.616);
+  border-bottom-left-radius: 1vw;
+  border-bottom-right-radius: 1vw;
+}
+
+#historia h1 {
+  padding: 25px;
+  padding-bottom: 0;
+  font-family: 'Android';
+  color: rgb(26, 92, 55)
+}
+
+#primeira-versao h1 {
+  background: linear-gradient(
+    45deg,
+    rgb(197, 235, 214) 0%,
+    rgba(132, 224, 172, 0.1) 75%
+  );
+  text-align: left;
+  margin: 20px;
+  padding: 5px;
+  font-family: 'Android';
+  color: rgb(26, 92, 55)
+}
+
+#primeira-versao img {
+  width: 100%;
+  padding: 0 20px;
+}
+
+#novo-mascote h1 {
+  background: linear-gradient(
+    45deg,
+    rgb(197, 235, 214) 0%,
+    rgba(132, 224, 172, 0.1) 75%
+  );
+  text-align: left;
+  margin: 20px;
+  padding: 5px;
+  font-family: 'Android';
+  color: rgb(26, 92, 55)
+}
+
+#img-irina {
+  width: 100%;
+  padding: 0 20px;
+}
+
+#img-android {
+  width: 100%;
+  padding: 0 15vw;
+}
+
+#novo-mascote iframe {
+  width: 100%;
+  height: 40vw;
+  background: rgb(26, 92, 55);
+  border: none;
+  padding: 20px 40px;
+}
+
+#final {
+  border-radius: 1vw;
+  margin: 20px;
+  background-color: rgb(197, 235, 214);
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.418);
+}
+
+#final .header-final {
+  background: rgb(47, 168, 102);
+  color: white;
+  border-top-left-radius: 0.7vw;
+  border-top-right-radius: 0.7vw;
+  padding: 10px;
+}
+
+#final #lista {
+  padding: 20px;
+  text-align: justify;
+  text-indent: 25px;
+  display: flex;
+  text-indent: 20px;
+}
+
+#final #lista .lista1 {
+  display: block;
+  width: 100%;
+  margin: 1vw;
+}
+
+#final #lista .lista2 {
+  display: block;
+  width: 100%;
+  margin: 0 1vw;
+}
+
+#final ul li {
+  list-style-type: "\2713";
+}
+
+#final p {
+  padding: 10px;
+}
+
+#final a:hover {
+    color: rgb(0, 66, 29);
+    text-decoration: underline;
+  }
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2vw;
+    background-color: rgb(26, 92, 55);
+}
+
+footer strong{
+    color: white;
+}
+footer p{
+    color: white;
+}
